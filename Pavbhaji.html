@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pavbhaji</title>
+        <style>
+            p::before{
+                content: '#';
+            }
+            #parent .sp{
+                color: pink;
+                font-size: xx-small;
+
+            }
+
+            #p1 .sq{
+                color:lightcoral;
+                font-size: x-large;
+            }
+            #d1 + p{
+                color:orange;
+            }
+            #m1 ~ p{
+                color: green;
+                font-size: larger;
+                font-weight: bolder;
+            }
+            div:hover{
+                text-align: center;
+            }
+
+        </style>
+    </head>
+    <body id="parent">
+        <h2>PAVBHAJI</h2>
+        <div id="p1">
+            <div>
+            <p class="sq">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p class="sq">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p id="d1">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div>
+            <p class="sp">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div>
+            <p class="sp">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div>
+            <p id="m1">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+    </div>
+    </body>
+</html>
